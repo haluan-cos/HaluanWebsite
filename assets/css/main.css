@@ -3953,3 +3953,13 @@
 	#two .inner h2 {
 	text-align: center;
 	}
+
+	#two .image {
+		pointer-events: none;
+   		cursor: default;
+	}
+
+	#two .image img {
+		width: 438px;
+		height: 428px;
+		object-fit: cover;
