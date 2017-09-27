@@ -958,7 +958,7 @@
 
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 890px) {
 
 		.row > * {
 			padding: 0 0 0 1.5em;
@@ -1758,7 +1758,7 @@
 		font-size: 0.6em;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 890px) {
 
 		h1 {
 			font-size: 2em;
@@ -2257,7 +2257,7 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 890px) {
 
 			.features section {
 				padding: 2.5em 1.5em 0.1em 5.5em ;
@@ -2308,7 +2308,7 @@
 			margin: 2em 0 0 0 !important;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 890px) {
 
 			form .field.half {
 				width: 100%;
@@ -2992,7 +2992,7 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 890px) {
 
 			.split > * {
 				margin: 3em 0 0 0;
@@ -3131,7 +3131,7 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 890px) {
 
 			.spotlights > section > .image {
 				height: 50vh;
@@ -3240,7 +3240,7 @@
 
 			}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 890px) {
 
 				.wrapper > .inner {
 					padding: 3em 2em 1em 2em ;
@@ -3308,7 +3308,7 @@
 
 			}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 890px) {
 
 				.wrapper.fullscreen {
 					padding: 2em 0;
@@ -3435,7 +3435,7 @@
 							color: #ffffff;
 						}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 890px) {
 
 			#header {
 				padding: 1em 2em;
@@ -3478,6 +3478,7 @@
 		margin-left: 18em;
 	}
 
+		/* medium size screen- padding to top */
 		@media screen and (max-width: 1280px) {
 
 			#sidebar + #wrapper {
@@ -3487,10 +3488,12 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		/* small size screen- padding to top */
+		@media screen and (max-width: 890px) {
 
 			#sidebar + #wrapper {
-				padding-top: 0;
+				/*padding-top: 0;*/
+				padding-top: 3em;
 			}
 
 		}
@@ -3877,7 +3880,7 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 890px) {
 
 			#sidebar {
 				display: none;
@@ -3890,7 +3893,7 @@
 	#intro {
 		background-attachment: fixed;
 		background-image: url("../../images/haluan-front.jpg") ;
-		background-position: 80% 50% ;
+		background-position: 85% 50% ;
 		background-repeat: no-repeat;
 		background-size: contain;
 
@@ -3899,7 +3902,8 @@
 	@media screen and (max-width: 1280px) {
 
 		#intro {
-			background-size: cover;
+			background-position: center;
+			background-size: contain;
 		}
 	}
 
@@ -3919,7 +3923,7 @@
 
 			}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 890px) {
 
 				#intro p {
 					font-size: 1em;
