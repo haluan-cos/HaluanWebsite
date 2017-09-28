@@ -3814,6 +3814,12 @@
 			opacity: 0;
 		}
 
+		@media screen and (min-width: 891px) {
+			#sidebar #logo {
+				display: none;
+			}
+		}
+
 		@media screen and (max-width: 1280px) {
 
 			#sidebar {
@@ -3875,7 +3881,7 @@
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #1CAAAA;
 						}
 
 		}
