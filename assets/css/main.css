@@ -3928,7 +3928,8 @@
 			font-size: 1.25em;
 		}
 
-			@media screen and (max-width: 980px) {
+			@media screen and (max-width: 980px)
+			and (min-device-width : 375px){
 
 				#intro p br {
 					display: none;
@@ -3936,7 +3937,8 @@
 
 			}
 
-			@media screen and (max-width: 890px) {
+			@media screen and (max-width: 890px)
+			and (min-device-width : 375px){
 
 				#intro p {
 					font-size: 1em;
@@ -3944,7 +3946,8 @@
 
 			}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1280px)
+		and (min-device-width : 375px){
 
 			#intro {
 				background-attachment: scroll;
