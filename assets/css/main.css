@@ -3910,8 +3910,10 @@
 
 	}
 
-	@media screen and (max-width: 1280px) {
-
+	@media only screen
+		and (min-device-width : 375px)
+		and (max-device-width : 1280px) 
+	{
 		#intro {
 			background-position: center;
 			background-size: contain;
