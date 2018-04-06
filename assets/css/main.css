@@ -3885,8 +3885,13 @@
 
 	#intro {
 		background-attachment: fixed;
+<<<<<<< HEAD
 		background-image: url("./images/haluan-front.jpg");
 		background-position: top right;
+=======
+		background-image: url("../../images/haluan-front.jpg") ;
+		background-position: 85% 50% ;
+>>>>>>> 4d2d5fcc267b03a7e97f05818627408f0263bcfd
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
